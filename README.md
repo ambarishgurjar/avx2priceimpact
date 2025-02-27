@@ -2,16 +2,16 @@
 
 ## Overview
 
-This project implements an **AVX2-optimized algorithm** for calculating impact prices in cryptocurrency order books, leveraging SIMD (Single Instruction, Multiple Data) intrinsics to significantly accelerate computations. The implementation draws inspiration from Stoikov's 2017 micro-price concept[^1], adapting it for high-frequency trading scenarios in cryptocurrency markets.
+This project implements an **AVX2-optimized algorithm** for calculating impact prices in cryptocurrency order books, leveraging SIMD (Single Instruction, Multiple Data) intrinsics to significantly accelerate computations. The implementation draws inspiration from Stoikov's 2017 micro-price concept, adapting it for high-frequency trading scenarios in cryptocurrency markets.
 
 Key features include:
 
 1. **AVX2 Optimization**: Utilizes 256-bit vector operations for parallel processing of order book data.
 2. **Dynamic CPU Feature Detection**: Automatically selects between AVX2 and scalar implementations based on runtime CPU capabilities.
 3. **Cython Integration**: Combines Python's ease of use with C-level performance for optimal execution speed.
-4. **Micro-Price Inspired Calculations**: Incorporates elements of Stoikov's micro-price, which accounts for order book imbalance and provides a potentially more accurate predictor of short-term price movements than traditional mid-price calculations[^1].
+4. **Micro-Price Inspired Calculations**: Incorporates elements of Stoikov's micro-price, which accounts for order book imbalance and provides a potentially more accurate predictor of short-term price movements than traditional mid-price calculations
 
-This implementation is particularly suited for high-frequency trading systems and market microstructure analysis in cryptocurrency markets, where rapid price calculations are crucial for making informed trading decisions[^2].[^1][^2][^5]
+This implementation is particularly suited for high-frequency trading systems and market microstructure analysis in cryptocurrency markets, where rapid price calculations are crucial for making informed trading decisions
 
 
 
