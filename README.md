@@ -15,7 +15,9 @@ This implementation is particularly suited for high-frequency trading systems an
 
 
 
-✅ **Scalar Implementation** (Baseline, no SIMD) ✅ **AVX2 Optimized Implementation** (Faster execution using vectorization) ✅ **Automatic SIMD Detection** (Dynamically selects best available implementation)
+**Scalar Implementation** (Baseline, no SIMD) 
+**AVX2 Optimized Implementation** (Faster execution using vectorization) 
+**Automatic SIMD Detection** (Dynamically selects best available implementation)
 
 ##  Performance
 
