@@ -1,7 +1,4 @@
-# AVX2 Impact Price Calculation for Crytocurrencies
-
-
-# AVX2 Impact Price Calculation
+# AVX2 Optimized Impact Price Calculation for Crytocurrencies
 
 ## Overview
 
@@ -21,7 +18,7 @@ Key features include:
 
 This implementation is particularly suited for high-frequency trading systems and market microstructure analysis in cryptocurrency markets, where rapid price calculations are crucial for making informed trading decisions[^2].[^1][^2][^5]
 
-<div style="text-align: center">⁂</div>
+<div style="text-align: center">⁂
 
 [^1]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2970694
 
@@ -58,7 +55,7 @@ This implementation is particularly suited for high-frequency trading systems an
 [^17]: https://www.reddit.com/r/hardware/comments/18q708v/what_is_the_real_world_impact_of_avx2_vs_avx512/
 
 [^18]: https://stackoverflow.com/questions/18971401/sparse-array-compression-using-simd-avx2
-
+</div>
 
 ✅ **Scalar Implementation** (Baseline, no SIMD) ✅ **AVX2 Optimized Implementation** (Faster execution using vectorization) ✅ **Automatic SIMD Detection** (Dynamically selects best available implementation)
 
